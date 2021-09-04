@@ -23,6 +23,7 @@
 6. Listar tópicos para validar que se creó 
 
 7. Con un producer enviar 10 mensajes al tópico creado
+
    NOTA para terminar un producer o consumer desde consola solo se le da CTRL + C
    
    ```bin/kafka-console-producer.sh --broker-list localhost:9092 --topic topic_name```
